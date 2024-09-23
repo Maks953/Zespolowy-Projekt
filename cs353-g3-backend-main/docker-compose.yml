@@ -1,0 +1,25 @@
+version: "3"
+
+services:
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    environment:
+      - POSTGRES_HOST=docker.andyw.ie
+      - POSTGRES_PORT=5054
+      - POSTGRES_NAME=user_db
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=mongopass
+
+      - MONGO_HOST=docker.andyw.ie
+      - MONGO_PORT=27017
+      - MONGO_USER=root
+      - MONGO_PASSWORD=mongopass
+
+      - EMAIL_HOST=smtp.gmail.com
+      - EMAIL_HOST_USER=shiqiayu@gmail.com
+      - EMAIL_HOST_PASSWORD=xamloczsuonleelp

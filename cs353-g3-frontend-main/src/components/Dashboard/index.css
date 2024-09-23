@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+.react-trello-lane {
+    border: 0;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    background-color: initial;
+}
+
+
+.react-trello-board {
+    font-family: "Poppins", sans-serif;
+    background-color: rgba(30, 143, 255, 0) !important;
+    height: 700px;
+}
