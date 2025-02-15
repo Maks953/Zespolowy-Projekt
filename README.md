@@ -1,1 +1,1 @@
-This is our third year computer Science project. We had made a Trello like web based application. The back-end of this project was made using a Django API server. The front-end using a REACT web server.
+To jest nasz trzeci projekt z informatyki. Stworzyliśmy aplikację internetową podobną do Trello. Back-end tego projektu został wykonany przy użyciu serwera API Django. Front-end został zrealizowany za pomocą serwera internetowego REACT.
